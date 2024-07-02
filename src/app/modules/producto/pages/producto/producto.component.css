@@ -1,0 +1,19 @@
+/* Estilos para el componente general */
+
+section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    color: #007bff; /* Azul brillante */
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  p {
+    line-height: 1;
+  }
+  

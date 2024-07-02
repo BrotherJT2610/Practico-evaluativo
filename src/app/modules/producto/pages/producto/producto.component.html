@@ -1,0 +1,23 @@
+<!-- general.component.html -->
+
+<section>
+    <h2>Visión y Misión</h2>
+    <p>{{ visionMision }}</p>
+</section>
+
+<section>
+    <h2>Historia</h2>
+    <p>{{ historia }}</p>
+</section>
+
+<section>
+    <h2>Valores</h2>
+    <ul>
+        <li *ngFor="let valor of valores">{{ valor }}</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Equipo</h2>
+    <p>{{ equipo }}</p>
+</section>
