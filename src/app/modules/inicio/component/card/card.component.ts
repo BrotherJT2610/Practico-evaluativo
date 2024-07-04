@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 //IMPORTAMOS LA INTERFAZ PARA CIUDAD
 import { MaquinaDeGym } from 'src/app/models/maquina';
+
 @Component({
   selector: 'app-card',
   templateUrl: './card.component.html',
@@ -38,4 +39,5 @@ export class CardComponent {
       },
     ]
   }
+
 }
