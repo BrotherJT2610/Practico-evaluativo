@@ -1,25 +1,66 @@
-/* styles.css */
 
-.about-us {
-    padding: 40px 0;
+  
+  h1 {
+    text-align: center;
+    margin-top: 10px; 
+    margin-bottom: 2rem;
   }
   
-  .about-us h2 {
-    font-size: 2.5em;
-    color: #333;
-    margin-bottom: 20px;
+  .container {
+    display: flex; 
+    padding: 10px; 
+    justify-content: center; 
+    max-width: 1200px;
+    margin: 0 auto;
   }
   
-  .about-us h3 {
-    font-size: 1.8em;
-    color: #555;
-    margin-top: 30px;
-    margin-bottom: 10px;
+  .contenido {
+    width: 350px; 
+    display: inline-block; 
+    padding: 15px; 
+    border-radius: 8px; 
+    margin: 10px; 
   }
   
-  .about-us p {
-    font-size: 1.2em;
-    line-height: 1.6;
-    color: #666;
+  p {
+    padding: 5px; 
+  }
+  
+  /* Media Queries */
+  @media (max-width: 1200px) {
+    .container {
+      padding: 0 15px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .carousel .carousel-item img {
+      height: 400px;
+      object-fit: cover;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .carousel .carousel-item img {
+      height: 300px;
+    }
+  
+    .mat-card {
+      margin-bottom: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .carousel .carousel-item img {
+      height: 200px;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    .mat-card {
+      margin-bottom: 1rem;
+    }
   }
   

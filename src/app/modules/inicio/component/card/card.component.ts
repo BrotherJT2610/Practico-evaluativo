@@ -40,4 +40,8 @@ export class CardComponent {
     ]
   }
 
+  comprar() {
+    alert('¡DEBES INICIAR SESION PARA PODER COMPRAR!');
+  }
+
 }
